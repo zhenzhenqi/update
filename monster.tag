@@ -11,7 +11,7 @@
 
   <script>
     //make a copy of my pet object and call it that
-    //var that  = this;
+    var that  = this;
 
     //initial state/propoerty
     this.hunger = 50;
@@ -50,12 +50,12 @@
 
     //tell DOM window to increase hunger every three second
     //console.log(that);
-    <!-- window.setInterval(function(){
+    window.setInterval(function(){
       that.incHunger();
       console.log("wait");
-      that.update();
+      //that.update();
       that.checkStatus();
-    }, 3000); -->
+    }, 3000);
   </script>
 
   <style>
